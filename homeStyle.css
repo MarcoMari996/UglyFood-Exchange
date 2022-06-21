@@ -1,0 +1,63 @@
+body {
+    font-size: 120%;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*--------------------------------------------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .container {
+    padding-top: 60px;
+}
+/*--------------------------------------------*/
+.container {
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    background: url("images/fruits-vegetables2.jpg") fixed center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.container .intermediate {
+    margin: 2% 10%;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(70px);
+    border-radius: 10px;
+    font-family: Segoe UI,SegoeUI,Segoe WP,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    font-size: 170%;
+    overflow: auto;
+}
+.container .intermediate img {
+    border-radius: 10%;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.2);
+    width: 35%;
+    height: auto;
+    object-fit: scale-down;
+    display: block;
+    margin-bottom: 20px;
+}
+.container .intermediate p {
+    display: block;
+    margin: 0;
+    width: 60% ;
+    text-align: justify;
+}
+/*--------------------------------------------*/
+.foot {
+    max-height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+    font-size: 80%;
+    font-family: Segoe UI,SegoeUI,Segoe WP,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    bottom: 0;
+    left: 0;
+}
